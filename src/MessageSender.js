@@ -45,7 +45,7 @@ function MessageSender() {
                         placeholder="image URL (Optional)" 
                     />
 
-                    <button onClick={handleSubmit} type="submit">Post</button>
+                    <button disabled={!input} onClick={handleSubmit} type="submit">Post</button>
                 </form>
             </div>
 
